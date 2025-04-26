@@ -2,6 +2,7 @@
 body {
     font-family: 'Bree Serif', serif;
     background-color: #fdfaf6; /* subtle warm background */
+    font-size: 1.1rem; /* base font size */
   }
   
   /* === Headings Use Dancing Script === */
