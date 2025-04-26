@@ -3,6 +3,7 @@ body {
     font-family: 'Bree Serif', serif;
     background-color: #fdfaf6; /* subtle warm background */
     font-size: 1.1rem; /* base font size */
+    padding-top: 150px; /* space for fixed navbar */
   }
   
   /* === Headings Use Dancing Script === */
@@ -42,7 +43,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #fff7e6; /* soft pastel background */
+    background-color: #fff7e7; /* soft pastel background */
     color: #333;
     font-family: 'Dancing Script', cursive;
     font-size: 1rem;
