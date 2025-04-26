@@ -36,4 +36,10 @@ body {
     transform: translateY(0);
   }
 
+  @media (max-width: 768px) {
+    .hero-banner img {
+      max-height: 250px; /* smaller banner height for phones */
+      object-fit: cover;
+    }
+  }
   
