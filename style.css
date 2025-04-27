@@ -78,3 +78,53 @@ body {
     }
   }
   
+  /* --- Custom Book Card Grid --- */
+.custom-book-card {
+  flex: 0 0 18%;
+  max-width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- Square Book Images --- */
+.square-card {
+  width: 100%;
+  padding-top: 100%; /* Force a perfect square! */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.square-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 992px) {
+  .custom-book-card {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-book-card {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-book-card {
+    flex: 0 0 90%;
+    max-width: 90%;
+  }
+}
