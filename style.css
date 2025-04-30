@@ -3,12 +3,25 @@ body {
     font-family: 'Bree Serif', serif;
     background-color: #fdfaf6; /* subtle warm background */
     font-size: 1.1rem; /* base font size */
-    padding-top: 150px; /* space for fixed navbar */
+    padding-top: 0px; /* space for fixed navbar */
   }
 
   .hero-banner {
-    margin-top: 160px;
+    margin-top: 140px;
   }
+
+  .hero-banner .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .hero-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem; /* space bwtween! */
+  }
+  
   
   /* === Headings Use Dancing Script === */
   h1, h2, h3 {
