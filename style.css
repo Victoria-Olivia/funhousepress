@@ -5,6 +5,10 @@ body {
     font-size: 1.1rem; /* base font size */
     padding-top: 150px; /* space for fixed navbar */
   }
+
+  .hero-banner {
+    margin-top: 160px;
+  }
   
   /* === Headings Use Dancing Script === */
   h1, h2, h3 {
