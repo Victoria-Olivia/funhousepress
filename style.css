@@ -97,13 +97,6 @@ body {
     text-decoration: underline;
   }
 
-  @media (max-width: 768px) {
-    .hero-banner img {
-      max-height: 250px; /* smaller banner height for phones */
-      object-fit: cover;
-    }
-  }
-  
   /* --- Custom Book Card Grid --- */
 .custom-book-card {
   flex: 0 0 18%;
@@ -133,7 +126,25 @@ body {
   object-fit: cover;
 }
 
+.welcome-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+.welcome-paragraph {
+  font-family: 'Bree Serif', serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+  .hero-banner img {
+    max-height: 250px; /* smaller banner height for phones */
+    object-fit: cover;
+  }
+}
+
 @media (max-width: 992px) {
   .custom-book-card {
     flex: 0 0 30%;
