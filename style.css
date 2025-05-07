@@ -137,6 +137,17 @@ body {
   font-weight: bold;
 }
 
+.btn-warning {
+  background-color: #ffc107;
+  color: #000; /* black text for better contrast */
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* darker yellow for accessibility */
+  color: #000; /* maintain contrast */
+}
+
 /* --- Responsive Adjustments --- */
 @media (max-width: 768px) {
   .hero-banner img {
