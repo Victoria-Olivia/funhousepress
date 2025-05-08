@@ -80,7 +80,7 @@ body {
   }
 
   .footer {
-    background-color: #ffffff; /* soft pastel background */
+    background-color: #ffc107; /* soft pastel background */
     color: #000000; /* darker text color */
     font-family: 'Bree Serif', serif;
     font-size: 1rem;
@@ -89,7 +89,7 @@ body {
   }
   
   .footer a {
-    color: #ffc107; /* golden yellow links */
+    color: #000000; /* golden yellow links */
     text-decoration: none;
   }
   
