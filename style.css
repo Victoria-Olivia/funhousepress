@@ -144,7 +144,7 @@ body {
 }
 
 .btn-warning:hover {
-  background-color: #e0a800; /* darker yellow for accessibility */
+  background-color: #dda90e; /* darker yellow for accessibility */
   color: #000; /* maintain contrast */
 }
 
