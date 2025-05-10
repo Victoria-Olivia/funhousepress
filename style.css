@@ -89,7 +89,7 @@ body {
   }
   
   .footer a {
-    color: #000000; /* golden yellow links */
+    color: #000000; 
     text-decoration: none;
   }
   
@@ -145,7 +145,7 @@ body {
 
 .btn-warning:hover {
   background-color: #dda90e; /* darker yellow for accessibility */
-  color: #000; /* maintain contrast */
+  color: #000; /* black text for better contrast */
 }
 
 /* --- Responsive Adjustments --- */
