@@ -1,9 +1,9 @@
-/* === General Body Settings === */
+
 body {
     font-family: 'Bree Serif', serif;
-    background-color: #fdfaf6; /* subtle warm background */
-    font-size: 1.1rem; /* base font size */
-    padding-top: 0px; /* space for fixed navbar */
+    background-color: #fdfaf6; 
+    font-size: 1.1rem; 
+    padding-top: 0px; 
   }
 
   .hero-banner {
@@ -19,11 +19,11 @@ body {
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 3rem; /* space bwtween! */
+    margin-bottom: 3rem; 
   }
   
   
-  /* === Headings Use Dancing Script === */
+
   h1, h2, h3 {
     font-family: 'Dancing Script', cursive;
   }
@@ -37,22 +37,22 @@ body {
     cursor: pointer;
   }
   
-  /* === Navbar Links Custom === */
+ 
   .navbar-nav .nav-link {
     font-family: 'Bree Serif', serif;
-    font-size: 1.2rem; /* makes links bigger */
-    font-weight: bold; /* makes links bold */
-    color: #000000; /* dark gray links */
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    color: #000000; 
     padding-left: 15px;
     padding-right: 15px;
   }
   
-  /* === Navbar Links Hover Effect === */
+  
   .navbar-nav .nav-link:hover {
-    color: #ffc107; /* golden yellow hover */
+    color: #ffc107; 
   }
   
-  /* === Optional Fade-in Animation for Headings === */
+ 
   .fade-in-up {
     opacity: 0;
     transform: translateY(30px);
@@ -64,12 +64,12 @@ body {
     transform: translateY(0);
   }
 
-  /* === Special Personal Note (Bottom Right) === */
+  
 .voo-note {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #fff7e7; /* soft pastel background */
+    background-color: #fff7e7; 
     color: #333;
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
@@ -80,11 +80,11 @@ body {
   }
 
   .footer {
-    background-color: #ffc107; /* soft pastel background */
-    color: #000000; /* darker text color */
+    background-color: #ffc107; 
+    color: #000000; 
     font-family: 'Bree Serif', serif;
     font-size: 1rem;
-    padding: 1.5rem 0; /* top and bottom padding */
+    padding: 1.5rem 0; 
     margin-top: 2rem;
   }
   
@@ -97,7 +97,7 @@ body {
     text-decoration: underline;
   }
 
-  /* --- Custom Book Card Grid --- */
+
 .custom-book-card {
   flex: 0 0 18%;
   max-width: 18%;
@@ -106,10 +106,10 @@ body {
   align-items: center;
 }
 
-/* --- Square Book Images --- */
+
 .square-card {
   width: 100%;
-  padding-top: 100%; /* Force a perfect square! */
+  padding-top: 100%; 
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -139,19 +139,18 @@ body {
 
 .btn-warning {
   background-color: #ffc107;
-  color: #000; /* black text for better contrast */
+  color: #000; 
   border: none;
 }
 
 .btn-warning:hover {
-  background-color: #dda90e; /* darker yellow for accessibility */
-  color: #000; /* black text for better contrast */
+  background-color: #dda90e; 
+  color: #000; 
 }
 
-/* --- Responsive Adjustments --- */
 @media (max-width: 768px) {
   .hero-banner img {
-    max-height: 250px; /* smaller banner height for phones */
+    max-height: 250px; 
     object-fit: cover;
   }
 }
