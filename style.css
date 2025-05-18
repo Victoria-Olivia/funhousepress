@@ -106,6 +106,10 @@ body {
   align-items: center;
 }
 
+.custom-book-card h3 {
+  font-size: 1.2rem;
+}
+
 
 .square-card {
   width: 100%;
