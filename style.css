@@ -189,3 +189,60 @@ body {
     font-size: 0.95rem;
   }
 }
+
+/* === Hero Heading === */
+.welcome-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: clamp(2.5rem, 6vw, 4rem); /* Responsive size */
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Hero paragraph styling */
+.welcome-paragraph {
+  max-width: 700px;         /* limits line length for readability */
+  margin: 0 auto;           /* centers it horizontally */
+  font-size: 1.1rem;        /* slightly smaller text */
+  line-height: 1.6;         /* nice spacing for comfort */
+  text-align: center;       /* aligns text under the hero heading */
+}
+
+/* === Gallery Title === */
+.gallery-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.50rem !important;   /* Increased size for clarity */
+  font-weight: 600 !important;     /* Slightly bold for visibility */
+  color: #000 !important;          /* Keeps text readable on light backgrounds */
+  letter-spacing: 0.5px;           /* Adds a clean, modern touch */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffb700 !important; /* adds my brand color on hover */
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+}
+
+.skip-link:focus {
+  left: 0;
+  top: 0;
+  padding: 0.5rem 1rem;
+  background-color: #ffb700; /* my brand yellow */
+  color: #000; /* black text for readability */
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 8px;
+  z-index: 10000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
