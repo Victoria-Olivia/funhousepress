@@ -218,8 +218,8 @@ body {
 }
 
 .navbar-nav .nav-link {
-  font-size: 1.50rem !important;   /* Increased size for clarity */
-  font-weight: 600 !important;     /* Slightly bold for visibility */
+  font-size: 1.5rem !important;   /* Increased size for clarity */
+  font-weight: bold !important;     /* Slightly bold for visibility */
   color: #000 !important;          /* Keeps text readable on light backgrounds */
   letter-spacing: 0.5px;           /* Adds a clean, modern touch */
 }
