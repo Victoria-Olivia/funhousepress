@@ -247,3 +247,80 @@ body {
   z-index: 10000;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
+
+/* ===================================
+   FUN HOUSE PRESS LEGAL PAGES
+   Privacy Policy + Terms & Disclaimer
+   =================================== */
+
+.legal-page {
+  padding-top: 190px;
+  padding-bottom: 3rem;
+}
+
+.legal-container {
+  max-width: 900px;
+  background-color: #fffdf9;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.legal-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: clamp(2.8rem, 6vw, 4rem);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.legal-updated {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-bottom: 2.5rem;
+}
+
+.legal-container h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 1.5rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 3px solid #ffc107;
+  padding-bottom: 0.4rem;
+}
+
+.legal-container p {
+  font-family: 'Bree Serif', serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.legal-container a {
+  color: #725300;
+  font-weight: bold;
+}
+
+.legal-container a:hover {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+
+  .legal-page {
+    padding-top: 175px;
+  }
+
+  .legal-container {
+    padding: 2rem 1.25rem;
+    border-radius: 0;
+  }
+
+  .legal-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .legal-container p {
+    font-size: 0.95rem;
+  }
+
+}
